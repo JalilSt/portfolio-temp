@@ -34,6 +34,7 @@ body{
     text-align: center;
     padding: 6px;
     vertical-align: center;
+    background-color: rgb(0, 0, 0, 0.03)
 }
 
 .center{
@@ -48,6 +49,7 @@ img {
 
 .body-summ {
     height: 24em;
+    background-color: rgb(0, 0, 0, 0.03);
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -62,11 +64,8 @@ img {
     
 }
 
-
-@media only screen and (max-width: 992px) {
-    .body-summ {
-        
-    }
+#footer {
+    width: 100%;
 }
 
 @media only screen and (max-width: 750px) {
@@ -74,7 +73,10 @@ img {
         flex-wrap: nowrap;
     }
     .body-summ {
-        width: 100%;
+        width: auto;
+        margin-left: 3%;
+    }
+    .head-summ.row {
         margin-left: 3%;
     }
 }
