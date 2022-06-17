@@ -4,5 +4,31 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
-    background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+   
+}
+.navbar-expand-lg{
+    justify-content: flex-end;
+    padding-left:40px;
+    
+}
+.navbar-light{
+    background-color: rgb(66, 66, 173);
+    font-size: 18px; 
+}
+.navlink{
+    color:white;
+    padding:12px 20px;
+    list-style-type: none;
+    display:block;     
+}
+.navlink:hover{
+    background-color: darkblue;
+    color:chartreuse;
+    text-decoration: none;
+}
+.navbar-brand{ 
+    display:none ;
+}
+.navbar-toggler{
+    background-color:rgba(238, 247, 247, 0.995);
 }
