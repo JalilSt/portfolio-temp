@@ -157,6 +157,26 @@ img{
 }
 
 
+
+
+/* for skills */
+
+.row {
+  margin: 2rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.column {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  column-gap: 85px;
+  background-color: lightgoldenrodyellow;
+  box-sizing: border-box;
+}
+
+
  /*------------------------- RESUME -------------------------*/
  .resume h3 i {
     padding-right: 0.75rem;
