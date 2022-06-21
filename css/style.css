@@ -33,6 +33,22 @@ body{
    
 
 }
+
+
+.row {
+  margin: 2rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.column {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  column-gap: 85px;
+  background-color: lightgoldenrodyellow;
+}
+
 .navbar-expand-lg{
     justify-content: flex-end;
     padding-left:40px;
