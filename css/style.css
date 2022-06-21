@@ -5,7 +5,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
 
+    background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80")
+    
+        
+        
+ background-color:#f0f8ff;
+ margin-left: 30px  ;
+}
+
+
+.head-title {
+    border-style: solid;
+    width: 300px;
+    background-color: rgb(157, 125, 221);
+   padding-top: 10px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-left: 20px;
+    color:#f0f8ff;
+}
+
+.head-des{
+    height: none;
+    width: 30px;
+
+
    
+
 }
 .navbar-expand-lg{
     justify-content: flex-end;
