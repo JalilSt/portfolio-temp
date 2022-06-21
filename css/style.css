@@ -90,9 +90,7 @@ img {
     padding: 6px;
     margin-bottom: 2%;
 }
-.text-summ {
-    
-}
+
 
 #footer {
     width: 100%;
@@ -112,7 +110,7 @@ img {
 }
     
     /* background-image: url("https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") */
-}
+
 img{
     width: 300px;
 }
@@ -125,3 +123,18 @@ img{
     display: flex;
 }
 
+ /*------------------------- RESUME -------------------------*/
+ .resume h3 i {
+    padding-right: 0.75rem;
+  }
+  .resume .timeline-box {
+    padding: 1rem 0;
+  }
+  .timeline-content p {
+    margin-bottom: 0 !important;
+  }
+  .resume .timeline-year {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+  }
